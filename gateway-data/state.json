@@ -1,0 +1,46 @@
+{
+    "Sites": [
+        {
+            "SiteId": "test-site",
+            "Enabled": true,
+            "Code": null,
+            "CodeExpiresAt": "2026-10-26T09:33:30.2975284+00:00",
+            "LastSeenAt": "2026-10-26T09:23:30.4283358+00:00",
+            "Stations": [
+                {
+                    "name": "Test",
+                    "type": "node",
+                    "key": "STA1"
+                }
+            ],
+            "Groups": [],
+            "RevokedDevices": [],
+            "ConsumedCodeHash": "8D969EEF6ECAD3C29A3A629280E686CF0C3F5D5A86AFF3CA12020C923ADC6C92"
+        }
+    ],
+    "Devices": [
+        {
+            "Id": "7aee396c8c44479a88f2cb2805a5b991",
+            "SiteId": "test-site",
+            "Name": "Integration phone",
+            "TokenHash": "CCE72365E709281D5EECC43BA42160E00970BA5BBDB40569B34F315151D52D9B"
+        }
+    ],
+    "Commands": [
+        {
+            "Id": "c6f19eb3-42a6-4d26-b2ad-f090b4fe797e",
+            "SiteId": "test-site",
+            "DeviceId": "7aee396c8c44479a88f2cb2805a5b991",
+            "DeviceName": "Integration phone",
+            "Type": "pair",
+            "Payload": null,
+            "TargetKey": null,
+            "BlobId": null,
+            "FileName": null,
+            "Sha256": null,
+            "Status": "pending",
+            "Result": null,
+            "CreatedAt": "2026-10-26T09:23:30.4920825+00:00"
+        }
+    ]
+}
